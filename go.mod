@@ -1,4 +1,4 @@
-module awesomeProject
+module worker-queue-system
 
 go 1.25
 
