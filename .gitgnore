@@ -1,0 +1,43 @@
+# ---- Go Build Artifacts ----
+bin/
+build/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ---- Go Modules ----
+/vendor/
+
+# ---- Test Cache ----
+/cover.out
+/*.cover
+*.cov
+
+# ---- Temporary Files ----
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ---- Editor / IDE ----
+
+### VSCode ###
+.vscode/
+
+### JetBrains (GoLand) ###
+.idea/
+
+### Mac / Linux ###
+.DS_Store
+.cache/
+Thumbs.db
+
+# ---- Build Output for this Project ----
+cmd/api/api
+cmd/worker/worker
+worker-queue-system
